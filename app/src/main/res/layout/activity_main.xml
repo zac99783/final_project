@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="45dp"
+        android:text=" 歡迎使用 一起上公車"
+        android:textColor="#94197B"
+        android:textSize="25sp"></TextView>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="134dp"
+            android:layout_height="129dp"
+            android:layout_weight="0.70"
+            android:src="@drawable/tenor"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingLeft="40dp"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/searchroute"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/buttonshape"
+
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="公車\n搜尋"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/mapbusstsaion"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/buttonshape_mapbustation"
+
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="附近\n站牌"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingTop="0dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/directionservice"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/buttonshape_directionservice"
+
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="路線\n規劃"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:layout_weight="1.23" />
+
+
+        <Button
+            android:id="@+id/ticketprice"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:background="@drawable/buttonshape_info"
+
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="票價\n查詢"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:paddingLeft="140dp"
+        android:paddingTop="12dp"
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.23"
+        android:text="yi qi shang gong che  ver. 1.0" />
+
+</LinearLayout>
