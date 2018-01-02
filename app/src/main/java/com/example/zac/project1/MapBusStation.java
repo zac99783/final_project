@@ -82,6 +82,10 @@ public class MapBusStation extends AppCompatActivity {
             }
         });
 
+<<<<<<< HEAD
+=======
+        ////
+>>>>>>> 49977a5e17afad878ba40d0cd3db874b1dcc0242
 
 
 
@@ -227,6 +231,10 @@ public class MapBusStation extends AppCompatActivity {
     public void marker(double showLat,double showLon,String nameZh){
 
         Log.d("maker",nameZh+":"+showLat +":"+showLon);
+<<<<<<< HEAD
+=======
+        //Toast.makeText(MainActivity.this,"水ㄛ",Toast.LENGTH_SHORT);
+>>>>>>> 49977a5e17afad878ba40d0cd3db874b1dcc0242
         MarkerOptions [] m=new MarkerOptions[11000];
         for (int i=0;i<nameZh.length();i++){
 
