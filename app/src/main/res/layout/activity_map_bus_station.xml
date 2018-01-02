@@ -10,32 +10,18 @@
     android:orientation="vertical">
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="300dp">
-
-        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/mapppp"
-            class ="com.google.android.gms.maps.SupportMapFragment" />
-
-    </LinearLayout>
-
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+    <Button android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="0dp" />
+        android:text="標記公車站牌"
+        android:id="@+id/mkstop" />
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:name="com.google.android.gms.maps.MapFragment"
+        tools:context="com.example.kyle_net.lab10_chen.MainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment" />
 
-    <TextView
-        android:text="TextView"
-        android:id="@+id/location"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </TextView>
 
 </LinearLayout>
